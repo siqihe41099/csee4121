@@ -1,6 +1,6 @@
 # csee4121
 If the graphs do not show up, please refer to this link:
-
+https://github.com/siqihe41099/csee4121/blob/main/README.md
 
 ### Question 1
 The default blocksize used by HFDS is 128 MB.
