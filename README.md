@@ -26,3 +26,7 @@ The job is still finished. The completion time of the task is 1 hr 6 min. The pe
 The completion time of the task is 34 min 8 sec. The performance is getting worse in terms of completion time compared to question 5 without killing one work node. In this question, we set dfs.replication from default to 1. Having replication factor of more than 1 results in more parallelization, which means that having multiple copies of data at multiple places and all the machines can simultaneously process data. Therefore, the performance would be better when we have replication factor of more than 1.
 
 ### Question 7
+<img width="586" alt="Screen Shot 2022-05-01 at 12 56 43 AM" src="https://user-images.githubusercontent.com/92268046/166132776-ae2012e6-ba65-47a6-bf36-9cd2dcae89e3.png">
+The completion time of the task is 33 min 38 sec. The performance is getting slightly better in terms of completion time, and its time is 10 sec less than the performance of question 5 without killing one work node. In general, the larger the blocksize, the less the completion time is. However, if the size of a file is small, then smaller blocksize is better. In this question, The file may not be large enough, so 64GB blocksize works well.
+
+
