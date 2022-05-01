@@ -1,4 +1,7 @@
 # csee4121
+If the graphs do not show up, please refer to this link:
+
+
 ### Question 1
 The default blocksize used by HFDS is 128 MB.
 The default replication factor of HDFS on Dataproc is 3.
