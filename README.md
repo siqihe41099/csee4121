@@ -6,7 +6,8 @@ https://github.com/siqihe41099/csee4121/blob/main/README.md
 The default blocksize used by HFDS is 128 MB.
 The default replication factor of HDFS on Dataproc is 3.
 
-### Question 2 <img width="534" alt="Screen Shot 2022-04-30 at 11 39 53 PM" src="https://user-images.githubusercontent.com/92268046/166131201-e543dda5-cdda-4894-8126-109a74df50ac.png">
+### Question 2 
+<img width="534" alt="Screen Shot 2022-04-30 at 11 39 53 PM" src="https://user-images.githubusercontent.com/92268046/166131201-e543dda5-cdda-4894-8126-109a74df50ac.png">
 The completion time of the task is 5 min 5 sec.
 
 
@@ -33,5 +34,12 @@ The completion time of the task is 34 min 8 sec. The performance is getting wors
 ### Question 7
 <img width="586" alt="Screen Shot 2022-05-01 at 12 56 43 AM" src="https://user-images.githubusercontent.com/92268046/166132776-ae2012e6-ba65-47a6-bf36-9cd2dcae89e3.png">
 The completion time of the task is 33 min 38 sec. The performance is getting slightly better in terms of completion time, and its time is 10 sec less than the performance of question 5 without killing one work node. In general, the larger the blocksize, the less the completion time is. However, if the size of a file is small, then smaller blocksize is better. In this question, The file may not be large enough, so 64GB blocksize works well.
+
+### Question 8!
+<img width="534" alt="Screen Shot 2022-05-02 at 10 59 26 AM" src="https://user-images.githubusercontent.com/92268046/166256625-d737a41e-8089-4010-9886-0fb8fd6804b4.png">
+The graph above shows the completion time for task 2. It used enwiki_whole.xml as inputs, created a dataframe with title and link, and wrote to a csv file.  
+<img width="563" alt="Screen Shot 2022-05-02 at 11 02 14 AM" src="https://user-images.githubusercontent.com/92268046/166257076-d12564eb-4b09-47e5-8679-8a3f44fce82c.png">
+The graph above shows the completion time for task 3. It read the output csv from task 2 and used it as inputs, created a dataframe with title and rank, and wrote to a csv file. 
+The total completion time is 59 min 27 sec + 1 hr 1 min. It toke approximately 2 hours to finish Question 8.
 
 
